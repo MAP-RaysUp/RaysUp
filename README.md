@@ -25,7 +25,7 @@
 
 <p align="left">
   <a href="">
-    <img src="./assets/raysup_eccv2026.png" alt="teaser" width="100%">
+    <img src="./assets/teaser.png" alt="teaser" width="100%">
   </a>
 </p>
 
