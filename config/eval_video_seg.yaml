@@ -1,0 +1,25 @@
+defaults:
+  - base
+  - dataset_evaluation: davis
+  - _self_
+
+eval:
+  model_ckpt: null 
+  upsampler_name: ${model.name}
+  external_repo_path: null
+  jafarmain_repo_path: null
+  anyup_repo_path: null
+  featup_repo_path: null
+  loftup_repo_path: null
+  use_natten: true
+  ups_factor: 2
+  n_last_frames: 7  
+  size_mask_neighborhood: 12
+  topk: 5  
+  force_imgnet_norm: False
+
+train_dataloader:
+  batch_size: 1
+
+val_dataloader:
+  batch_size: 1

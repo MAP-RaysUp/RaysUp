@@ -1,0 +1,11 @@
+defaults:
+  - _self_
+
+_target_: src.upsampler.RaysUp
+input_dim: 3
+qk_dim: 256
+v_dim: ${model.feature_dim}
+feature_dim: ${get_feature:${backbone.name}}
+kernel_size: 1
+num_heads: 4
+name: raysup
