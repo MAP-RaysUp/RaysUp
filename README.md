@@ -18,7 +18,7 @@
 </p>
 
   <h3 align="center"><a href="https://lif314.github.io/projects/raysup/">🌐Project page</a> 
-| <a href="">📝Paper(CVF)</a> | <a href="">📝Paper(arXiv)</a>
+| <a href="https://arxiv.org/abs/2606.22749">📝Paper(CVF)</a> | <a href="https://arxiv.org/abs/2606.22749">📝Paper(arXiv)</a>
   </h3>
   <div align="center"></div>
 </p>
